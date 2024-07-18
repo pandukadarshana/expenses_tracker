@@ -12,11 +12,7 @@ void main() async {
     // Initialize Firebase with your Firebase project configuration
     await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: "AIzaSyB1jRTV-j-J935U9bZaKkL9H9449JcUZE0",
-        appId: "1:724450669177:android:5d442ab41bbeb349aadaa8",
-        messagingSenderId: "724450669177",
-        projectId: "expens-tracker-7bcc5",
-        storageBucket: "expens-tracker-7bcc5.appspot.com",
+        
       ),
     );
   } catch (e) {
